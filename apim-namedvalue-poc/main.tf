@@ -64,7 +64,7 @@ locals {
     },
     {
       name        = "name3"
-      display_name = "display_name3"
+      display_name = "display"
       value       = "value3"
     },
     {
