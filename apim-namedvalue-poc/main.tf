@@ -53,6 +53,11 @@ data "azurerm_api_management" "main" {
 locals {
   named_values = [
     {
+      name = anshul
+      display_name = "displayanshul"
+      value = "value3"
+    },
+    {
       name        = "name1"
       display_name = "display_name1"
       value       = "value1"
