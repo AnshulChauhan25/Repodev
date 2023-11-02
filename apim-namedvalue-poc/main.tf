@@ -64,7 +64,7 @@ locals {
     },
     {
       name        = "name3"
-      display_name = "display_name3"
+      display_name = "display"
       value       = "value3"
     },
     {
@@ -90,4 +90,8 @@ resource "azurerm_api_management_named_value" "main" {
   api_management_name = data.azurerm_api_management.main.name
   display_name        = each.value.display_name
   value               = each.value.value
+
+
+
+  
 }
